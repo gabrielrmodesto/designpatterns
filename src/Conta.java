@@ -1,12 +1,17 @@
-
 public class Conta {
-	private double saldo;
+    private String titular;
+    private double saldo;
 
-	public void deposita(double valor) {
-		this.saldo += valor;
-		
-	}
-	public double getSaldo() {
-		return this.saldo;
-	}
+    public Conta(String titular, double saldo){
+        this.titular = titular;
+        this.saldo = saldo;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
 }
