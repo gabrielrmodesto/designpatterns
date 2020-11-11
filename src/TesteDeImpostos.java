@@ -2,11 +2,11 @@
 public class TesteDeImpostos {
 
 	public static void main(String[] args) {
-		Imposto iss = new ISS(new ICMS(new ICPP()));
+		Imposto imposto = new ImpostoMuitoAlto(new ICMS());
 		
 		Orcamento orcamento = new Orcamento(500);
 		
-		double valor = iss.calcula(orcamento);
+		double valor = imposto.calcula(orcamento);
 		
 		System.out.println(valor);
 	}
