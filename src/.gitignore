@@ -29,3 +29,7 @@
 /RelatorioComplexo.class
 /TesteDeRelatorio.class
 /ImpostoMuitoAlto.class
+/Filtro.class
+/FiltroMenorQue100Reais.class
+/FiltroMaiorQue500MilReais.class
+/FiltroMesmoMes.class

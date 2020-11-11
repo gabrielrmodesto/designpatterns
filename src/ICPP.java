@@ -1,6 +1,11 @@
 
 public class ICPP extends TemplateDeImpostoCondicional{
-
+	public ICPP() {}
+	
+	public ICPP(Imposto outroImposto) {
+		super(outroImposto);
+	}
+	
 	@Override
 	protected double minimaTaxacao(Orcamento orcamento) {
 		return orcamento.getValor() * 0.05;
