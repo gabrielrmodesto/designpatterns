@@ -42,3 +42,8 @@
 /EstadoDaConta.class
 /Positivo.class
 /Negativo.class
+/NotaFiscal.class
+/ItemDaNota.class
+/CriadorDeNotaFiscal.class
+/TesteDaNotaFiscal.class
+/NotaFiscalBuilder.class
