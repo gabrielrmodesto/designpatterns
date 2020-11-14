@@ -1,3 +1,4 @@
+import java.util.GregorianCalendar;
 
 public class TesteDaNotaFiscal {
 
@@ -9,7 +10,7 @@ public class TesteDaNotaFiscal {
 		.comItem(new ItemDaNota("Item 2", 300.0))
 		.comItem(new ItemDaNota("Item 3", 400.0))
 		.comObservacoes("Observacao")
-		.naDataAtual();
+		.naData(new GregorianCalendar());
 		
 		NotaFiscal nf = builder.constroi();
 		
