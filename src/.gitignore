@@ -47,3 +47,7 @@
 /CriadorDeNotaFiscal.class
 /TesteDaNotaFiscal.class
 /NotaFiscalBuilder.class
+/EnviadorDeEmail.class
+/NotaFiscalDAO.class
+/EnviadorDeSms.class
+/Impressora.class
