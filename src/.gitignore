@@ -51,3 +51,5 @@
 /NotaFiscalDAO.class
 /EnviadorDeSms.class
 /Impressora.class
+/AcaoAposGerarNota.class
+/TesteAcao.class

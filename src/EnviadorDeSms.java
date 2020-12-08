@@ -1,6 +1,6 @@
 
-public class EnviadorDeSms {
-	public void enviaPorSms(NotaFiscal nf) {
+public class EnviadorDeSms implements AcaoAposGerarNota {
+	public void executa(NotaFiscal nf) {
 		System.out.println("enviei por sms");
 	}
 }
